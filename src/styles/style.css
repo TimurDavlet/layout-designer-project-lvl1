@@ -1,1 +1,55 @@
 /** CSS STYLE **/
+@font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+    font-weight: 400; /* Соответствует значению normal */
+    font-family: 'Neucha';
+    font-style: normal;
+    src: url('../fonts/Neucha-Regular.ttf');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25.6px;
+    overflow: hidden;
+}
+
+body::before {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+header {
+    position: center;
+}
+
+.h1-head {
+    line-height: 86.4px;
+    font-family: 'Neucha', sans-serif;
+    font-size: 72px;
+    font-weight: normal;
+    margin-left: 165px;
+    margin-right: 137px;
+    margin-top: 100px;
+}
+
+.img-container {
+    position: absolute;
+    
+}
+
+.img-header {
+    height: 525px;
+    margin-top: 55px;
+    position: relative;
+    left: 461px;
+    top: -125px;
+}
