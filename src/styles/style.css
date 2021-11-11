@@ -22,8 +22,9 @@ body {
 }
 
 header {
-    width: 1138px;
+    width: max-content;
     margin: 0 auto;
+    position: relative;
 }
 
 .bg::before {
@@ -63,7 +64,7 @@ header {
 .p-container {
     display: inline-flex;
     flex-direction: row;
-    margin-top: 190px;
+    margin-top: 120px;
 }
 
 .column-left {
