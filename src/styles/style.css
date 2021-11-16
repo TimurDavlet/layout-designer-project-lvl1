@@ -135,6 +135,10 @@ main p {
     margin-right: auto;
 }
 
+nav h4{
+    color: #fe8a02;
+}
+
 .container-flex {
     display: flex;
     background: #2a2626;
@@ -150,6 +154,7 @@ main p {
     margin-right: 30px;
     margin-bottom: 20px;
     background: #fff;
+    cursor: pointer;
 }
 
 .nav-head {
@@ -206,5 +211,9 @@ main p {
 
 .nav-conteiner:hover {
     background: #fe8a02;
+    color: #fff;
+} 
+
+.nav-conteiner:hover h4{
     color: #fff;
 } 
