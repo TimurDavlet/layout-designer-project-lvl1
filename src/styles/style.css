@@ -146,6 +146,7 @@ nav h4{
     padding: 200px 0 0 0;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
 .nav-conteiner {
@@ -217,3 +218,88 @@ nav h4{
 .nav-conteiner:hover h4{
     color: #fff;
 } 
+
+.ikea-flex {
+    display: flex;
+    width: 100%;
+    padding: 200px 0 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.conteiner-ikea {
+    flex-basis: 578px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 30px 100px 0;
+}
+
+.conteiner-ikea h3{
+    font-size: 60px;
+    font-family: 'Neucha', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+    line-height: 72px;
+}
+
+.title-text {
+    font-size: 34px;
+    font-family: 'Neucha', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+    line-height: 40.8px;
+    padding-top: 30px;
+    width: 452px;
+}
+
+.gray{
+    color: #908D8B;
+    font-size: 24px;
+    font-family: 'Neucha', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    margin: 0;
+    line-height: 28.8px;
+}
+
+.conteiner-ikea-100 {
+    width: 100%;
+}
+
+.conteiner-ikea-p {
+    width: 1216px;
+    height: 26px;
+    justify-content: left;
+    background: #B09A81;
+    margin: 0 auto;
+}
+
+.conteiner-ikea-p p {
+    margin: 0;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18.8px;
+}
+
+.conteiner-ikea p {
+    padding: 0;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 25.6px;
+    width: 540px;
+    margin-top: 20px;
+}
