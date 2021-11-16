@@ -150,7 +150,6 @@ main p {
     margin-right: 30px;
     margin-bottom: 20px;
     background: #fff;
-    box-sizing: border-box;
 }
 
 .nav-head {
@@ -162,7 +161,6 @@ main p {
     padding: 24px;
     margin-right: 30px;
     margin-bottom: 20px;
-    box-sizing: border-box;
 }
 
 .nav-head h3 {
