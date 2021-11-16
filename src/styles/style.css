@@ -150,16 +150,24 @@ main p {
     margin-right: 30px;
     margin-bottom: 20px;
     background: #fff;
+    box-sizing: border-box;
 }
 
 .nav-head {
     background: #2a2626;
 }
 
+.nav-head {
+    flex-basis: 350px;
+    padding: 24px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
 
-.nav-conteiner h3 {
+.nav-head h3 {
     text-align: left;
-    line-height: 1.2em;
+    line-height: 1;
     font-family: 'Neucha', sans-serif;
     font-size: 52px;
     font-weight: normal;
@@ -182,7 +190,6 @@ main p {
     line-height: 26px;
     text-align: left;
     margin: 0;
-    padding-bottom: 11px;
 }
 
 .number {
@@ -192,6 +199,7 @@ main p {
     font-family: 'Neucha', sans-serif;
     font-weight: normal;
     line-height: 1em;
+    margin: 0;
 } 
 
 .break {
