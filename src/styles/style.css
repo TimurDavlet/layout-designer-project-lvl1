@@ -36,6 +36,19 @@ header {
     position: absolute;
     height: 100%;
     width: 100%;
+    top: 0;
+    z-index: -10;
+}
+
+.bg-brown::after {
+    background-color: #b09a81;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -20;
+    content: "";
 }
 
 .h1-head {
@@ -54,6 +67,10 @@ header {
 
 .white {
     color: #fff;
+}
+
+.white-50 {
+   color: #D7CCC0;
 }
 
 .img-container {
@@ -219,10 +236,10 @@ nav h4{
     color: #fff;
 } 
 
-.ikea-flex {
+.article-flex {
     display: flex;
     width: 100%;
-    padding: 200px 0 0 0;
+    padding: 100px 0 100px 0;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 100px;
@@ -230,7 +247,7 @@ nav h4{
     position: relative;
 }
 
-.conteiner-ikea {
+.conteiner-article {
     flex-basis: 578px;
     width: 100%;
     justify-content: center;
@@ -238,7 +255,7 @@ nav h4{
     margin: 0 30px 100px 0;
 }
 
-.conteiner-ikea h3{
+.conteiner-article h3{
     font-size: 60px;
     font-family: 'Neucha', sans-serif;
     font-weight: normal;
@@ -268,11 +285,11 @@ nav h4{
     line-height: 28.8px;
 }
 
-.conteiner-ikea-100 {
+.conteiner-article-100 {
     width: 100%;
 }
 
-.conteiner-ikea-p {
+.conteiner-article-h4 {
     width: 1216px;
     height: 26px;
     justify-content: left;
@@ -280,7 +297,7 @@ nav h4{
     margin: 0 auto;
 }
 
-.conteiner-ikea-p p {
+.conteiner-article-h4 h4 {
     margin: 0;
     text-align: left;
     padding-top: 5px;
@@ -291,9 +308,10 @@ nav h4{
     font-style: normal;
     font-size: 14px;
     line-height: 18.8px;
+    text-transform: uppercase;
 }
 
-.conteiner-ikea p {
+.conteiner-article p {
     padding: 0;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
@@ -302,4 +320,30 @@ nav h4{
     line-height: 25.6px;
     width: 540px;
     margin-top: 20px;
+}
+
+.conteiner-article-h4-white {
+    width: 1216px;
+    height: 26px;
+    justify-content: left;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.conteiner-article-h4-white h4 {
+    margin: 0;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #b09a81;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18.8px;
+    text-transform: uppercase;
+}
+
+.shadow {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
