@@ -132,6 +132,11 @@ footer {
     text-align: center;
 }
 
+.more-text:hover {
+    background: #b46103;
+    cursor: pointer;
+}
+
 main h2 {
     text-align: center;
     line-height: 86.4px;
